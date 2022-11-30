@@ -13,6 +13,8 @@ public class Main{
         stack.push("DooM");
         stack.push("Borderlands");
         stack.push("FFVII");
+        stack.push("FFXIV");
+        stack.push("Mario Kart");
         //print contents of stack
         System.out.println(stack);
         //remove last item from stack and assign it to variable
@@ -21,6 +23,12 @@ public class Main{
         System.out.println(stack);
         //print variable containing popped item from stack
         System.out.println(myFavGame);
+        //assign last item from stack to variable without removing it
+        String myNewFavGame = stack.peek();
+        //print variable containing peeked item from stack
+        System.out.println(myNewFavGame);
+        //print items from stack
+        System.out.println(stack);
 
 
 
