@@ -37,6 +37,13 @@ public class Main{
         //print index of item not in stack. will return value of -1
         System.out.println(stack.search("Super Mario"));
 
+        //add 20 'Zelda' items to the stack with for loop
+        for(int i = 0; i < 20; i++) {
+            stack.push("Zelda");
+        }
+
+        //print items from stack
+        System.out.println(stack);
 
 
 
