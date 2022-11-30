@@ -2,7 +2,7 @@ package Stacks;
 import java.util.Stack;
 
 public class Main{
-    
+    // Stacks are Last in First out structure
     public static void main(String[] args) {
         // Create new stack called stack
         Stack<String> stack = new Stack<String>();
