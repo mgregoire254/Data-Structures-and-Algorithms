@@ -17,13 +17,13 @@ public class Main{
         stack.push("Mario Kart");
         //print contents of stack
         System.out.println(stack);
-        //remove last item from stack and assign it to variable
+        //remove last item from stack and assign it to variable. pop will remove the item
         String myFavGame = stack.pop();
         //print remaining items from stack
         System.out.println(stack);
-        //print variable containing popped item from stack
+        //print variable containing popped item from stack.
         System.out.println(myFavGame);
-        //assign last item from stack to variable without removing it
+        //assign last item from stack to variable without removing it. peek will not remove the item
         String myNewFavGame = stack.peek();
         //print variable containing peeked item from stack
         System.out.println(myNewFavGame);
