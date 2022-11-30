@@ -31,6 +31,14 @@ public class Main{
         System.out.println(stack);
 
 
+        //print index of 'Borderlands'item in stack
+        System.out.println(stack.search("Borderlands"));
+
+        //print index of item not in stack. will return value of -1
+        System.out.println(stack.search("Super Mario"));
+
+
+
 
 
 
